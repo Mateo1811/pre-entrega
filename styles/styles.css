@@ -40,7 +40,7 @@ body {
     color: var(--secondary-text-color);
     font-size: 16px;
     font-weight: 600;
-    height: 660px;
+    min-height: 100vh;
     
 }
 
@@ -222,7 +222,7 @@ padding: 5px
     background-color: black;
     grid-area: nav;
     color: var(--main-text-color);
-    height: 660px;
+    min-height: 100vh;
     width: 150px;
     text-align: center;
 
@@ -343,5 +343,62 @@ padding: 5px
   }
   
   .login-button:active {
+    transform: scale(0.97);
+  }
+
+  .custom-form {
+    background-color: var(--maincolor);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--main-text-color);
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    outline: none;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #3730a3;
+    transform: scale(1.02);
+  }
+  
+  .form-button:active {
     transform: scale(0.97);
   }
