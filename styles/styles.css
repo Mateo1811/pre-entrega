@@ -325,6 +325,23 @@ padding: 5px
     font-size: 25px;
 }
 
+.login-button {
+    padding: 12px 24px;
+    background-color:var(--background-main-color);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+}
 
-
-
+.login-button:hover {
+    background-color: var(--background-secondary-color);
+    transform: scale(1.05);
+  }
+  
+  .login-button:active {
+    transform: scale(0.97);
+  }
