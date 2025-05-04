@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 152px;
-
+    
 }
 
 #main {
@@ -401,4 +401,119 @@ padding: 5px
   
   .form-button:active {
     transform: scale(0.97);
+  }
+
+  @media (max-width:600px){
+    .img-ofertas1{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .img-ofertas2{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .img-ofertas3{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .img-ofertas4{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .img-ofertas5{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .img-ofertas6{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .grid-container{
+        grid-template: 
+    "header header header header header" 
+    "nav main1 main1 main1 main1"
+    "nav main main main main"
+    "footer footer footer footer footer";
+    }
+
+    #banner{
+        font-size: 11px;
+        
+    }
+
+    #banner input{
+        height: 10px;
+        width: 60px;
+
+    }
+
+    #main{
+        font-size: 11px;
+    }
+
+    .login-button{
+        padding: 5px 5px;
+    }
+
+    .main-buzos img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .main-buzos div{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .main-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-contacto h1{
+        font-size: 16px;
+    }
+
+    .main-contacto p{
+        font-size: 14px;
+    }
+
+    .custom-form{
+        padding: 5px;
+        font-size:10px ;
+    }
+
+    .main-cambios h1{
+        font-size: 40px;
+    }
+
+    .main-cambios p{
+        font-size: 15px;
+    }
+
+    .about-us-main iframe{
+        height: 350px;
+        width: 350px;
+    }
+
+    .about-us-main img{
+        height: 350px;
+        width: 350px;
+        padding: 20px;
+    }
+
   }
