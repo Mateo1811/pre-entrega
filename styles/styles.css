@@ -338,7 +338,7 @@ body {
 }
 
 .login-button:hover {
-    background-color: var(--background-secondary-color);
+    background-color: black;
     transform: scale(1.05);
 }
 
