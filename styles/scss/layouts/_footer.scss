@@ -1,0 +1,59 @@
+#banner {
+    background-color: var(--maincolor);
+    color: var(--main-text-color);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 152px;
+
+    .nav-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+
+        a {
+            padding: 5px;
+        }
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+
+        p {
+
+            padding: 5px
+        }
+
+        h4 {
+            padding: 5px;
+        }
+    }
+
+    .footer-email {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+
+        label {
+            padding: 5px;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px;
+        }
+    }
+}
+
+.footer {
+    grid-area: footer;
+}

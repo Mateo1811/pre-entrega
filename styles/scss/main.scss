@@ -1,0 +1,28 @@
+:root {
+    $maincolor: #0D1B2A;
+    $main-text-color: #E0E1DD;
+    $background-main-color: #415A77;
+    $background-secondary-color: #e0e1dd;
+    $secondary-text-color: #0d1b2a;
+}
+
+@use "./base/reset";
+@use "./base/typography";
+
+@use "./components/buttons";
+
+@use "./layouts/footer";
+@use "./layouts/forms";
+@use "./layouts/grid";
+@use "./layouts/header";
+@use "./layouts/navegation";
+
+@use "./pages/about-us";
+@use "./pages/buzos";
+@use "./pages/cambios";
+@use "./pages/contacto";
+@use "./pages/home";
+@use "./pages/log-in";
+@use "./pages/register";
+
+@use "./vendors/jquery-ui";

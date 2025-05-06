@@ -1,0 +1,17 @@
+.nav-principal {
+    background-color: black;
+    grid-area: nav;
+    color: var(--main-text-color);
+    min-height: 100vh;
+    width: 150px;
+    text-align: center;
+
+}
+
+.productos a {
+    padding: 10px;
+}
+
+.productos h3 {
+    padding-bottom: 30px;
+}

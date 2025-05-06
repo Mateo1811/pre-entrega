@@ -1,0 +1,7 @@
+.grid-container {
+    display: grid;
+    grid-template:
+        "header header header header header"
+        "nav main1 main main main"
+        "footer footer footer footer footer";
+}

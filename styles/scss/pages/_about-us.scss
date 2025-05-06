@@ -1,0 +1,21 @@
+.about-us-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h3 {
+        padding: 20px;
+    }
+
+    iframe {
+        padding: 20px;
+        height: 550px;
+        width: 550px;
+    }
+
+    img {
+        height: 663px;
+        width: 700px;
+    }
+}
