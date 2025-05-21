@@ -217,6 +217,28 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.main-buzos .producto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+.main-buzos .producto img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+.main-buzos .producto span {
+  font-size: 14px;
+  color: #555;
+}
+.main-buzos .precio {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.4;
+}
 
 .main-cambios {
   display: flex;
@@ -367,6 +389,17 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   grid-area: main;
+}
+#main .precio {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#main .producto {
+  text-align: center;
 }
 
 #body-log-in {
