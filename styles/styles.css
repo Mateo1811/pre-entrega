@@ -241,17 +241,41 @@ body {
 }
 
 .main-cambios {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 1.7;
 }
 .main-cambios h1 {
-  font-size: 50px;
-  padding-bottom: 25px;
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #111;
+}
+.main-cambios h2 {
+  margin-top: 40px;
+  font-size: 1.4em;
+  color: #222;
 }
 .main-cambios p {
-  font-size: 25px;
+  margin: 15px 0;
+  font-size: 1em;
+}
+.main-cambios ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main-cambios ul li {
+  margin-bottom: 10px;
+}
+.main-cambios strong {
+  color: #000;
 }
 
 .main-contacto {
@@ -621,6 +645,15 @@ body {
     height: 350px;
     width: 350px;
     padding: 20px;
+  }
+  .main-cambios {
+    padding: 20px;
+  }
+  .main-cambios h1 {
+    font-size: 1.6em;
+  }
+  .main-cambios h2 {
+    font-size: 1.2em;
   }
 }
 
