@@ -1,11 +1,11 @@
-:root {
-    $maincolor: #0D1B2A;
-    $main-text-color: #E0E1DD;
-    $background-main-color: #415A77;
-    $background-secondary-color: #e0e1dd;
-    $secondary-text-color: #0d1b2a;
-}
+$main-color: #0D1B2A;
+$main-text-color: #E0E1DD;
+$background-main-color: #415A77;
+$background-secondary-color: #e0e1dd;
+$secondary-text-color: #0d1b2a;
 
+
+@use "./base/variables";
 @use "./base/reset";
 @use "./base/typography";
 
