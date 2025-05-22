@@ -561,36 +561,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .img-ofertas1 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
-  .img-ofertas2 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
-  .img-ofertas3 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
-  .img-ofertas4 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
-  .img-ofertas5 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
-  .img-ofertas6 {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-  }
   .grid-container {
     grid-template: "header header header header header" "nav main1 main1 main1 main1" "nav main main main main" "footer footer footer footer footer";
   }
@@ -603,6 +573,42 @@ body {
   }
   #main {
     font-size: 11px;
+  }
+  #main .img-ofertas1 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .img-ofertas2 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .img-ofertas3 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .img-ofertas4 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .img-ofertas5 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .img-ofertas6 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  #main .precio {
+    font-size: 8px;
+  }
+  #main span {
+    font-size: 10px;
   }
   .login-button {
     padding: 5px 5px;

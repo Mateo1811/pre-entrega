@@ -1,5 +1,29 @@
 @media (max-width:600px) {
-    .img-ofertas1 {
+    
+
+    .grid-container {
+        grid-template:
+            "header header header header header"
+            "nav main1 main1 main1 main1"
+            "nav main main main main"
+            "footer footer footer footer footer";
+    }
+
+    #banner {
+        font-size: 11px;
+
+    }
+
+    #banner input {
+        height: 10px;
+        width: 60px;
+
+    }
+
+    #main {
+        font-size: 11px;
+
+      .img-ofertas1 {
         height: 100px;
         width: 100px;
         padding: 10px;
@@ -35,27 +59,13 @@
         padding: 10px;
     }
 
-    .grid-container {
-        grid-template:
-            "header header header header header"
-            "nav main1 main1 main1 main1"
-            "nav main main main main"
-            "footer footer footer footer footer";
+    .precio{
+        font-size: 8px;
     }
 
-    #banner {
-        font-size: 11px;
-
+    span{
+        font-size: 10px;
     }
-
-    #banner input {
-        height: 10px;
-        width: 60px;
-
-    }
-
-    #main {
-        font-size: 11px;
     }
 
     .login-button {
@@ -122,5 +132,7 @@
   .main-cambios h2 {
     font-size: 1.2em;
   }
-
+  
 }
+
+
