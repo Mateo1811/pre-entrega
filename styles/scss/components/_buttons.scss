@@ -8,16 +8,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: flex;
-
-    .login-button:hover {
-        background-color: black;
-        transform: scale(1.05);
-    }
-
-    .login-button:active {
-        transform: scale(0.97);
-    }
 }
+
+.login-button:hover {
+        background-color: black;
+    }
 
 //*otro boton
 
@@ -64,3 +59,21 @@
     background-color: #00d1d1;
   }
   }
+
+  //*otro boton
+
+  .boton-comprar {
+    background-color: #415A77;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #333;
+}

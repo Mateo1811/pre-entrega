@@ -25,12 +25,9 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
   display: flex;
 }
-.login-button .login-button:hover {
+
+.login-button:hover {
   background-color: black;
-  transform: scale(1.05);
-}
-.login-button .login-button:active {
-  transform: scale(0.97);
 }
 
 .form-button {
@@ -70,6 +67,22 @@ body {
 }
 .register-button .register-button:hover {
   background-color: #00d1d1;
+}
+
+.boton-comprar {
+  background-color: #415A77;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+  background-color: #333;
 }
 
 #banner {
@@ -660,6 +673,10 @@ body {
   }
   .main-cambios h2 {
     font-size: 1.2em;
+  }
+  .boton-comprar {
+    padding: 6px 12px;
+    font-size: 12px;
   }
 }
 
