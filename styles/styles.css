@@ -333,6 +333,35 @@ body {
   color: #E0E1DD;
 }
 
+.info-box {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  float: right;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  height: 350px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 5px;
+}
+
+.info-box a {
+  color: #4dabf7;
+  text-decoration: none;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
+
 #main {
   background-color: #e0e1dd;
   color: #0d1b2a;
