@@ -145,7 +145,28 @@
     .nav-principal{
         width:120px ;
     }
-  
+
+    .about-box {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 30px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  margin-right: 60px;
+  font-size: 5px;
+  height: 150px;
+}
+
+.contenedor-about-cuadro img {
+  height: 70px;
+  width: 70px;
+}
+  .contenedor-about-cuadro{
+    padding-right: 0px;
+    padding-left: 6px;
+  }
 }
 
 /* Media queries para pantallas ultrawide 2K y 4K */

@@ -19,3 +19,33 @@
         width: 700px;
     }
 }
+
+.contenedor-about-cuadro {
+  display: flex;
+  justify-content: flex-end; /* alinea el cuadro a la derecha */
+  padding: 40px;
+}
+
+.about-box {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 30px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  margin-right: 60px;
+}
+
+.about-box h2 {
+  margin-top: 0;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff33;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.about-box p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
