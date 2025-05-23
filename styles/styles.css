@@ -580,6 +580,9 @@ body {
   #banner {
     font-size: 11px;
   }
+  #banner .img-logo {
+    width: 120px;
+  }
   #banner input {
     height: 10px;
     width: 60px;
@@ -677,6 +680,9 @@ body {
   .boton-comprar {
     padding: 6px 12px;
     font-size: 12px;
+  }
+  .nav-principal {
+    width: 120px;
   }
 }
 
