@@ -757,8 +757,8 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     font-family: Arial, sans-serif;
     margin-right: 60px;
-    font-size: 5px;
-    height: 150px;
+    font-size: 10px;
+    height: 400px;
   }
   .contenedor-about-cuadro img {
     height: 70px;
