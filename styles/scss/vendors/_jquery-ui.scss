@@ -4,8 +4,9 @@
     .grid-container {
         grid-template:
             "header header header header header"
-            "nav main1 main1 main1 main1"
-            "nav main main main main"
+            "nav nav nav nav nav"
+            "main1 main1 main1 main1 main1"
+            "main main main main main"
             "footer footer footer footer footer";
     }
 
@@ -144,6 +145,11 @@
 
     .nav-principal{
         width:120px ;
+        display: flex;
+        width: 390px;
+        min-height: 7px;
+        height: 138px;
+        flex-direction: column;
     }
 
     .about-box {
